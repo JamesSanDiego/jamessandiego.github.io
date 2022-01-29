@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+/* Importing a Font from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+/* The Sora font will be my main font for my website */
+body{
+  font-family: "Sora", sans-serif;
+  background-color: #faf9f6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Importing my img, then having it as my Home Page background*/
+.background-img{
+  background: url('./images/sandiego.jpeg')
+  center center/cover no-repeat;
+  height: 50vh;
+  width: 100% ;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+  object-fit: contain;
 }
 
-.App-link {
-  color: #61dafb;
+/* Regular CSS below for my pages*/
+.Skill-Set-Grid{
+  padding: 50px;
+  margin-left: 20px;
+  margin-bottom: 150px;
+  vertical-align: middle;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Skill-set{
+  padding: 20px;
+  margin-left: 60px;
+  margin-bottom: 14px;
+  vertical-align: middle;
+}
+
+.About-Me-Grid{
+  display: grid;
+  grid-template-columns: auto auto ;
+  padding: 10px;
+}
+
+.About-Me{
+  padding: 20px;
+  align-items: center;
+}
+
+.Contact-Grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.Contact{
+  padding: 20px;
+  align-items: center;
+}
+
+/* Mobile View CSS Below*/
+@media screen and (max-width: 768px) {
+  .Skill-Set-Grid{
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 14px;
+    vertical-align: middle;
   }
-  to {
-    transform: rotate(360deg);
+
+  .Skill-set{
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 14px;
+    vertical-align: middle;
   }
+
+  .About-Me-Grid{
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .About-Me{
+    padding: 20px;
+    align-items: center;
+  }
+
+  .Contact-Grid{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .Contact{
+    padding: 20px;
+    align-items: center;
+  }
+
 }
