@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jamessandiego.github.io/static/css/main.2fa6f809.css",
+    "main.js": "/jamessandiego.github.io/static/js/main.5d547aba.js",
+    "static/media/jmsandiego.jpg": "/jamessandiego.github.io/static/media/jmsandiego.493e088f2ce0d732ea29.jpg",
+    "static/media/sandiego.jpeg": "/jamessandiego.github.io/static/media/sandiego.b6fd321fabb499e74a33.jpeg",
+    "index.html": "/jamessandiego.github.io/index.html",
+    "main.2fa6f809.css.map": "/jamessandiego.github.io/static/css/main.2fa6f809.css.map",
+    "main.5d547aba.js.map": "/jamessandiego.github.io/static/js/main.5d547aba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fa6f809.css",
+    "static/js/main.5d547aba.js"
+  ]
+}
